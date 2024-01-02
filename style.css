@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(darkslategray, black);
+    background-attachment: fixed;
+}
+
+h1, h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#statusText {
+    font-weight: normal;
+    color: greenyellow;
+}
+
+#retryButton {
+    height: 50px;
+    width: 225px;
+    font-size: large;
+    color: aliceblue;
+    background-color: darkcyan;
+}
+
+#gameContainer {
+    text-align: center;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+}
+
+
+/*#gameContainer {
+    background-color: aliceblue;
+    display: flexbox;
+    width: 50%;
+    text-align-last: center;
+}*/
